@@ -1,19 +1,25 @@
 # PBHYB
 Source files for a particle-based hybrid code for planet formation 
+
 Instruction for particle-based hybrid code (PBHYB) for planetary accretion 
 
-Ryuji Morishima (fastspin@hotmail.co.jp)
+Ryuji Morishima (fastspin@hotmail.co.jp),
 Feb. 1, 2018
 
 1. Configuration
 
-There are five directories in the pbhyb package.//
+There are five directories in the pbhyb package.
+
 a)source:   the source files of PBHYB
+
 b)mdl2:     a part of the source file which handles 
             the machine dependent layer (mdl)
+
 c)analysis: analysis programs, including 
             an initial condition generator
+
 d)pebble_run: an example run with pebble supply in a gaseous disk; Run1 of Morishima (2018) (w. collisional destruction)
+
 e)planetesimal_run : another example run starting with planetesimals only w/o a gaseous disk (perfect merging)
 
 Units in PBHYB are: solar mass = 1, G = 1, 1 AU = 1.
@@ -23,6 +29,7 @@ Thus, 1 yr is 2*pi.
 2 Source program (source)
 
 2.1. Compilation
+
 The directry "mdl2" must be in the same level of "source"  
 (as it is in default). 
 
@@ -42,6 +49,7 @@ This creates the exacutable file "pbhyb_null".
 We have only a serial version for now.
 
 2.2 If you want to modify the source code
+
 Most of routines are in master.c or pkd.c.
 If you add a function in master.c,
 you usually need to add another function in pst.c
@@ -53,6 +61,7 @@ was turned out to be low for N ~ 10,000.
 3. Programs for analysis (analysis)
 
 3.1. Compilation
+
 Clean if there are any executable and object (.o) files
 in the directory "analysis"
  
