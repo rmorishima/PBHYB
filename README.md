@@ -5,7 +5,7 @@ Click the "Raw" button for better reading
 Source files for a particle-based hybrid code for planet formation 
 Instruction for particle-based hybrid code (PBHYB) for planetary accretion 
 
-Ryuji Morishima (fastspin@hotmail.co.jp),
+Ryuji Morishima (fastspin@hotmail.co.jp)
 Feb. 1, 2018
 
 1. Configuration
