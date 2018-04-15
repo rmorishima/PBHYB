@@ -1,4 +1,7 @@
 # PBHYB
+
+Click raw for better reading
+
 Source files for a particle-based hybrid code for planet formation 
 Instruction for particle-based hybrid code (PBHYB) for planetary accretion 
 
