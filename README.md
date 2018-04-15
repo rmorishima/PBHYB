@@ -27,11 +27,17 @@ The directry "mdl2" must be in the same level of "source"
 (as it is in default). 
 
 In "source", configure as follows:
-  >./configure --enable-soft-linear --enable-planets --enable-symba --enable-sm2d
+ 
+>./configure --enable-soft-linear --enable-planets --enable-symba --enable-sm2d
+  
 Clean if there are any executable and object (.o) files: 
-  > make clean 
+
+> make clean
+  
 Then compile  
-  > make null   
+  
+> make null   
+  
 This creates the exacutable file "pbhyb_null".
 We have only a serial version for now.
 
@@ -49,9 +55,12 @@ was turned out to be low for N ~ 10,000.
 3.1. Compilation
 Clean if there are any executable and object (.o) files
 in the directory "analysis"
-  > make clean 
+ 
+> make clean 
+  
 Then make
-  > make 
+
+> make 
 
 3.2. Executable files
 
@@ -87,7 +96,9 @@ ssic.par: a parameter file for creating an initial condition
 
 4.2. Creation of an initial position file 
 Modify ssic.par for your purpose and execute 
-  > ../analysis/ssic
+ 
+> ../analysis/ssic
+  
 This creates a position file named ssic.ss.
 
 4.3. Prepare your parameter file
@@ -146,6 +157,7 @@ equal to or less than ss.coll.bin_old.
 6.1 ssa
 ssa reads position files and creates some analyzed outputs in text style. 
 You can specify as many position files as possible.
+
 > ../analyse/ssa ss.0010000000 ss.0020000000
   
 This creates following files (see ssa.c for details):
@@ -172,12 +184,15 @@ f) ssa.out: summary1
 
 6.2 ene
 "ene" calculates the total energies and angular momentum. 
-  > ../analysis/ene ss.0010000000 ss.0020000000
+
+> ../analysis/ene ss.0010000000 ss.0020000000
+
 Output are displayed on the terminal and also tabulated in ene.out.
 
 6.3 collread 
 "collread" reads ss.coll.bin and outputs collision data in text style (imp.dat).
-  > ../analysis/collread ss.coll.bin
+
+> ../analysis/collread ss.coll.bin
  
 Columns in imp.dat are as follows:
 1)time in yr 
