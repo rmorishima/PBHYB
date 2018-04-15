@@ -1,6 +1,5 @@
 # PBHYB
 Source files for a particle-based hybrid code for planet formation 
-
 Instruction for particle-based hybrid code (PBHYB) for planetary accretion 
 
 Ryuji Morishima (fastspin@hotmail.co.jp),
@@ -11,15 +10,11 @@ Feb. 1, 2018
 There are five directories in the pbhyb package.
 
 a)source:   the source files of PBHYB
-
 b)mdl2:     a part of the source file which handles 
             the machine dependent layer (mdl)
-
 c)analysis: analysis programs, including 
             an initial condition generator
-
 d)pebble_run: an example run with pebble supply in a gaseous disk; Run1 of Morishima (2018) (w. collisional destruction)
-
 e)planetesimal_run : another example run starting with planetesimals only w/o a gaseous disk (perfect merging)
 
 Units in PBHYB are: solar mass = 1, G = 1, 1 AU = 1.
