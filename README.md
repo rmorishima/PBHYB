@@ -97,6 +97,7 @@ pkd2sw:   converts a position file in the style of PBHYB
 4. Start jobs  
 
 4.1. Necessary files
+
 Goto the directry "run1" or make a new directry 
 with ss.par and ssic.par 
 
@@ -104,6 +105,7 @@ ss.par: a parameter file for a job
 ssic.par: a parameter file for creating an initial condition
 
 4.2. Creation of an initial position file 
+
 Modify ssic.par for your purpose and execute 
  
 > ../analysis/ssic
@@ -111,6 +113,7 @@ Modify ssic.par for your purpose and execute
 This creates a position file named ssic.ss.
 
 4.3. Prepare your parameter file
+
 Modify the parameter file, ss.par.
 
 You generally need to modify the following lines:
@@ -135,6 +138,7 @@ pkdGasAccel in pkd.c to see how these parameters are used.
 > ../source/pbhyb_null ss.par
 
 4.5 Output files
+
 After the job starts, the program produces following output files:
 a) binary position files: named such as ss.0010000000 
 b) collision data files for the N-body routine: ss.coll.bin (binary) and ss.coll.txt (text)
@@ -164,6 +168,7 @@ equal to or less than ss.coll.bin_old.
 6. Analysis of output data
 
 6.1 ssa
+
 ssa reads position files and creates some analyzed outputs in text style. 
 You can specify as many position files as possible.
 
