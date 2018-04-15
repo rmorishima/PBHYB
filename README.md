@@ -1,12 +1,9 @@
 # PBHYB
 Source files for a particle-based hybrid code for planet formation 
-
 Instruction for particle-based hybrid code (PBHYB) for planetary accretion 
 
 Ryuji Morishima (fastspin@hotmail.co.jp)
-
 Feb. 1, 2018
-
 
 1. Configuration
 
@@ -51,9 +48,9 @@ was turned out to be low for N ~ 10,000.
 
 3.1. Compilation
 Clean if there are any executable and object (.o) files
-in the directory "analysis": 
+in the directory "analysis"
   > make clean 
-Then make:
+Then make
   > make 
 
 3.2. Executable files
