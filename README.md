@@ -7,7 +7,7 @@ Feb. 1, 2018
 
 1. Configuration
 
-There are five directories in the pbhyb package.
+There are five directories in the pbhyb package.//
 a)source:   the source files of PBHYB
 b)mdl2:     a part of the source file which handles 
             the machine dependent layer (mdl)
